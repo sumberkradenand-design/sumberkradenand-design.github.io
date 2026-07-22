@@ -347,3 +347,57 @@ height:280px;
         font-size:13px;
     }
 }
+
+@media (max-width:768px){
+    body.menu-open .hamburger{
+        display:none;
+    }
+}
+
+/*================ SECTION TITLE (EMPAT DUSUN & LAINNYA) ================*/
+@media (max-width:991px){
+    .dusun-section .section-title h2{
+        font-size:38px;
+    }
+    .dusun-section .section-title p{
+        font-size:17px;
+        line-height:30px;
+    }
+}
+
+@media (max-width:768px){
+    .dusun-section .section-title h2{
+        font-size:30px;
+        line-height:1.3;
+    }
+    .dusun-section .section-title{
+        margin-bottom:50px;
+    }
+}
+
+@media (max-width:480px){
+    .dusun-section .section-title h2{
+        font-size:24px;
+    }
+}
+
+@media (max-width:768px){
+    .history-title,
+    .wilayah-title,
+    .lokasi-title,
+    .potensi-title,
+    .preview-header h2 {
+        font-size:30px;
+        line-height:1.3;
+    }
+}
+
+@media (max-width:480px){
+    .history-title,
+    .wilayah-title,
+    .lokasi-title,
+    .potensi-title,
+    .preview-header h2 {
+        font-size:24px;
+    }
+}
