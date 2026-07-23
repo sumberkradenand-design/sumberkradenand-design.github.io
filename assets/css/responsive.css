@@ -401,3 +401,86 @@ height:280px;
         font-size:24px;
     }
 }
+
+/*================ LOKASI - RESPONSIVE (TABLET & HP) ================*/
+@media (max-width:991px){
+    .lokasi-wrapper{
+        grid-template-columns:1fr;
+        gap:30px;
+    }
+    .lokasi-map iframe{
+        height:380px;
+    }
+}
+
+@media (max-width:768px){
+    .info-item-lokasi{
+        padding:20px;
+    }
+    .info-item-lokasi h3{
+        font-size:18px;
+    }
+    .info-item-lokasi p{
+        font-size:15px;
+        line-height:26px;
+    }
+}
+
+@media (max-width:480px){
+    .info-item-lokasi{
+        gap:14px;
+        padding:16px;
+    }
+    .info-item-lokasi i{
+        width:48px;
+        height:48px;
+        font-size:18px;
+        flex-shrink:0;
+    }
+    .info-item-lokasi h3{
+        font-size:17px;
+    }
+    .info-item-lokasi p{
+        font-size:14px;
+        line-height:24px;
+    }
+}
+
+/*================ DUSUN IMAGE - LANDSCAPE DI TABLET & HP ================*/
+@media (max-width:991px){
+    .dusun-item,
+    .dusun-item.reverse{
+        flex-direction:column;
+        gap:30px;
+    }
+    .dusun-image img{
+        height:280px;
+        aspect-ratio:16/9;
+        object-fit:cover;
+    }
+}
+
+@media (max-width:768px){
+    .dusun-image img{
+        height:240px;
+    }
+    .dusun-content h3{
+        font-size:30px;
+    }
+    .dusun-number{
+        font-size:48px;
+    }
+    .dusun-content p{
+        font-size:16px;
+        line-height:28px;
+    }
+}
+
+@media (max-width:480px){
+    .dusun-image img{
+        height:200px;
+    }
+    .dusun-content h3{
+        font-size:26px;
+    }
+}
